@@ -15,7 +15,7 @@ monitor it, including answering "why isn't this record syncing?".
 
 The server is remote-only. There is nothing to install from this repository — it exists so
 directories and registries can link to a canonical public source. The server itself is developed
-in Whalesync's main (private) codebase.
+elsewhere.
 
 ## Install
 
