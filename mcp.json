@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "whalesync": {
+      "url": "https://api.whalesync.com/mcp"
+    }
+  }
+}

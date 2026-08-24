@@ -1,0 +1,10 @@
+{
+  "name": "whalesync",
+  "description": "Two-way sync between your favorite business apps. Build, run, and monitor Whalesync syncs from your agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Whalesync",
+    "url": "https://www.whalesync.com"
+  },
+  "mcpServers": "./mcp.json"
+}
