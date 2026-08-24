@@ -6,5 +6,6 @@
     "name": "Whalesync",
     "url": "https://www.whalesync.com"
   },
+  "logo": "assets/logo.svg",
   "mcpServers": "./mcp.json"
 }
