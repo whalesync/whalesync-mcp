@@ -52,13 +52,17 @@ You'll need a [Whalesync account](https://www.whalesync.com).
 
 24 tools over the Whalesync public API:
 
-- **Build**: `create_sync`, `update_sync`, `list_connectors`, `list_bases`, `list_tables`,
-  `list_fields`, `get_mappings`, `update_mappings`, `validate_mappings`
-- **Run**: `activate_sync`, `pause_sync`, `delete_sync`
-- **Monitor & fix**: `get_sync_status`, `list_issues`, `get_issue`, `retry_issue`,
-  `list_operations`, `get_operation`, `search_records`, `get_record_status`,
-  `list_pending_deletes`
-- **Navigate**: `list_syncs`, `get_sync`, `whats_next`
+- **Build**: `sync_create`, `sync_update`, `sync_list_connectors`, `sync_list_bases`,
+  `sync_list_tables`, `sync_list_fields`, `sync_get_mappings`, `sync_update_mappings`,
+  `sync_validate_mappings`
+- **Run**: `sync_activate`, `sync_pause`, `sync_delete`
+- **Monitor & fix**: `sync_get_status`, `sync_list_issues`, `sync_get_issue`,
+  `sync_retry_issue`, `sync_list_operations`, `sync_get_operation`, `sync_search_records`,
+  `sync_get_record_status`, `sync_list_pending_deletes`
+- **Navigate**: `sync_list`, `sync_get`, `sync_whats_next`
+
+Tools are prefixed `sync_` because they cover Whalesync's sync feature; other features will
+arrive under their own prefixes.
 
 Anything irreversible stays human-gated: connecting your apps (OAuth), starting a sync, and
 approving deletes all happen in the Whalesync app — the agent hands you a link at each step.
