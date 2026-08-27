@@ -43,7 +43,11 @@ code --add-mcp '{"name":"whalesync","type":"http","url":"https://api.whalesync.c
 codex mcp add whalesync --url https://api.whalesync.com/mcp
 ```
 
-**claude.ai / ChatGPT** — add a custom connector with the URL `https://api.whalesync.com/mcp`.
+**Claude (web, desktop, mobile)** — [install from the Claude directory](https://claude.ai/directory/whalesync) — click **Connect**.
+
+**ChatGPT** — add a custom connector with the URL `https://api.whalesync.com/mcp`.
+
+**Grok** — [grok.com/connectors](https://grok.com/connectors) → New Connector → Custom → paste `https://api.whalesync.com/mcp`.
 
 On first use, your client opens a browser window to sign in to Whalesync and approve access.
 You'll need a [Whalesync account](https://www.whalesync.com).
