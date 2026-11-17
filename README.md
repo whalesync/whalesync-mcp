@@ -45,7 +45,7 @@ codex mcp add whalesync --url https://api.whalesync.com/mcp
 
 **Claude (web, desktop, mobile)** — [install from the Claude directory](https://claude.ai/directory/whalesync) — click **Connect**.
 
-**ChatGPT** — [install from the ChatGPT app directory](https://chatgpt.com/plugins/plugin_asdk_app_6a8db5955114819183be4fea4322f628) — click **Connect**, or add a custom connector with the URL `https://api.whalesync.com/mcp`.
+**ChatGPT** — in [Plugins](https://chatgpt.com/plugins), click **+** → **Add custom MCP server**, enter `https://api.whalesync.com/mcp` under Connection, and choose OAuth. [Full steps](https://docs.whalesync.com/api/mcp/setup#chatgpt).
 
 **Grok** — [grok.com/connectors](https://grok.com/connectors) → New Connector → Custom → paste `https://api.whalesync.com/mcp`.
 
